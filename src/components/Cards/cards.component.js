@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-export const CardsComponent = new Vue({
+module.exports = new Vue({
     props: {
         msg: String
       }
